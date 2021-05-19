@@ -19436,6 +19436,7 @@
 	    },
 	    xdai: { chainId: 100, name: "xdai" },
 	    matic: { chainId: 137, name: "matic" },
+	    mumbai: { chainId: 80001, name: "mumbai" },
 	    bnb: { chainId: 56, name: "bnb" },
 	    bnbt: { chainId: 97, name: "bnbt" },
 	};
@@ -25477,6 +25478,12 @@
 	                break;
 	            case "goerli":
 	                host = "goerli.infura.io";
+	                break;
+	            case "polygon":
+	                host = "polygon-mainnet.infura.io";
+	                break;
+	            case "mumbai":
+	                host = "polygon-mumbai.infura.io";
 	                break;
 	            default:
 	                logger.throwError("unsupported network", lib.Logger.errors.INVALID_ARGUMENT, {

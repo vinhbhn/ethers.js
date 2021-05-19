@@ -98,6 +98,12 @@ var InfuraProvider = /** @class */ (function (_super) {
             case "goerli":
                 host = "goerli.infura.io";
                 break;
+            case "polygon":
+                host = "polygon-mainnet.infura.io";
+                break;
+            case "mumbai":
+                host = "polygon-mumbai.infura.io";
+                break;
             default:
                 logger.throwError("unsupported network", logger_1.Logger.errors.INVALID_ARGUMENT, {
                     argument: "network",

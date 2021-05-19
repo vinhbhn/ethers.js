@@ -142,6 +142,7 @@ var networks = {
     },
     xdai: { chainId: 100, name: "xdai" },
     matic: { chainId: 137, name: "matic" },
+    mumbai: { chainId: 80001, name: "mumbai" },
     bnb: { chainId: 56, name: "bnb" },
     bnbt: { chainId: 97, name: "bnbt" },
 };
