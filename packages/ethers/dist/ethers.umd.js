@@ -26507,8 +26507,8 @@
 	exports.constants = constants;
 	var providers = __importStar(lib$r);
 	exports.providers = providers;
-	var providers_1 = lib$r;
-	Object.defineProperty(exports, "getDefaultProvider", { enumerable: true, get: function () { return providers_1.getDefaultProvider; } });
+
+	Object.defineProperty(exports, "getDefaultProvider", { enumerable: true, get: function () { return lib$r.getDefaultProvider; } });
 
 	Object.defineProperty(exports, "Wordlist", { enumerable: true, get: function () { return lib$j.Wordlist; } });
 	Object.defineProperty(exports, "wordlists", { enumerable: true, get: function () { return lib$j.wordlists; } });

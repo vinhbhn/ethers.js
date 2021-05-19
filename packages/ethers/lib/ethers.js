@@ -34,7 +34,7 @@ var wallet_1 = require("@ethersproject/wallet");
 Object.defineProperty(exports, "Wallet", { enumerable: true, get: function () { return wallet_1.Wallet; } });
 var constants = __importStar(require("@ethersproject/constants"));
 exports.constants = constants;
-var providers = __importStar(require("@ethersproject/providers"));
+var providers = __importStar(require("../../providers/lib/index"));
 exports.providers = providers;
 var providers_1 = require("@ethersproject/providers");
 Object.defineProperty(exports, "getDefaultProvider", { enumerable: true, get: function () { return providers_1.getDefaultProvider; } });

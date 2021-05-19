@@ -9,7 +9,7 @@ import { Wallet } from "@ethersproject/wallet";
 
 import * as constants from "@ethersproject/constants";
 
-import * as providers from "@ethersproject/providers";
+import * as providers from "../../providers/lib/index";
 import { getDefaultProvider } from "@ethersproject/providers";
 
 import { Wordlist, wordlists} from "@ethersproject/wordlists";
